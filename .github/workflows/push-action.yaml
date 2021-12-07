@@ -14,4 +14,4 @@ jobs:
         name: Display JSON
         with: 
           './'
-        run: echo "hello"
+          run: echo "hello"
