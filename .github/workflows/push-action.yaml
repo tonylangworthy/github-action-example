@@ -9,7 +9,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Do something
       - uses: actions/checkout@v2
 
       - name: Display JSON
