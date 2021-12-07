@@ -13,6 +13,6 @@ jobs:
 
       - name: Display JSON
 
-        run: 
+        run: |
           vehicleData=vehicle-data.json >> GITHUB_ENV
-          echo ${{ env.vehicleData }}
+          echo 'Vehicle: ${{ env.vehicleData }}'
