@@ -12,6 +12,6 @@ jobs:
       name: Do something
       - uses: actions/checkout@v2
 
-        name: Display JSON
+      - name: Display JSON
         with: './'
         run: echo "hello"
