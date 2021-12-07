@@ -12,6 +12,4 @@ jobs:
 
       - name: Display JSON
         with: './'
-          run: |
-            vehicleData=vehicle-data.json >> GITHUB_ENV
-            echo ${{ env.vehicleData }}
+          run: echo "hello"
